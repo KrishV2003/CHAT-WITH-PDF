@@ -162,7 +162,8 @@ def main():
     
 
     # Replace "C:\Users\ADMIN\OneDrive\Desktop\ai_image-removebg-preview.png" with the actual path of the image you want to display
-    st.image(r"C:\Users\ADMIN\Downloads\ai_chatbot_image_with_background-removebg-preview.png", caption="HELLO!!,HOW CAN I HELP YOU TODAY?", use_column_width=False, width=500)
+    st.image("images/ai_chatbot_image_with_background-removebg-preview.png", caption="HELLO!!, HOW CAN I HELP YOU TODAY?", use_column_width=False, width=500)
+
     
     st.header("Chat with PDF using Gemini💁")
     st.markdown("Welcome to the PDF chatbot. Upload your PDFs, ask questions, and get answers!")
