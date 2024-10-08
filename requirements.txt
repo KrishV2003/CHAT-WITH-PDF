@@ -90,7 +90,7 @@ pure_eval==0.2.3
 pyarrow==17.0.0
 pyasn1==0.6.1
 pyasn1_modules==0.4.1
-PyAudio==0.2.14
+# PyAudio==0.2.14  # Uncomment if necessary and available for the target platform
 pydantic==2.9.2
 pydantic-settings==2.5.2
 pydantic_core==2.23.4
@@ -101,7 +101,7 @@ PyPDF2==3.0.1
 python-dateutil==2.9.0.post0
 python-dotenv==1.0.1
 pytz==2024.2
-pywin32==307
+# pywin32==307  # Removed for compatibility
 PyYAML==6.0.2
 pyzmq==26.2.0
 referencing==0.35.1
