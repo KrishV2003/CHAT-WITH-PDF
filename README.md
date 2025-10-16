@@ -62,28 +62,3 @@ This app uses **LangChain**, **Hugging Face Transformers**, and **Streamlit**, r
 
 ---
 
-## ⚙️ Setup and Installation  
-
-### 🧾 Prerequisites  
-- Python 3.8 or above  
-- pip package manager  
-
-### 📦 Steps to Run  
-```bash
-# 1. Clone the repository
-git clone https://github.com/yourusername/chat-with-pdf.git
-cd chat-with-pdf
-
-# 2. (Optional) Create a virtual environment
-python -m venv venv
-# Activate it
-# On Windows:
-venv\Scripts\activate
-# On Mac/Linux:
-source venv/bin/activate
-
-# 3. Install required dependencies
-pip install -r requirements.txt
-
-# 4. Run the Streamlit app
-streamlit run app.py
